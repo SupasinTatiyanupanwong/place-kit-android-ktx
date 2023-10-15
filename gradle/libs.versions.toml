@@ -1,0 +1,13 @@
+[versions]
+com-android-library = "7.4.2"
+org-jetbrains-kotlin-android = "1.7.20"
+places-core = "1.0.0"
+
+[libraries]
+places-core = { group = "dev.supasintatiyanupanwong.libraries.android.kits.places", name = "places-core", version.ref = "places-core" }
+
+[plugins]
+com-android-library = { id = "com.android.library", version.ref = "com-android-library" }
+org-jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "org-jetbrains-kotlin-android" }
+
+[bundles]
